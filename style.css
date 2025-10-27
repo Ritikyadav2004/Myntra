@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  border-bottom: 1px solid #b6b1b1;
+}
+
+.MyntraHome {
+  height: 45px;
+}
+
+.logoContanier {
+  margin-left: 4%;
+}
+.actionBar
+{
+    margin-right: 4%;
+}
+.navBar
+{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 512px;
+    
+    
+}
+
+.navBar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 28px 0;
+    border-bottom: 4px solid #ffffff;
+    
+    
+}
+.navBar a sup{
+    color:#ff3f6c;
+    font-size: 10px;
+
+}
+
+.navBar a:hover{
+  border-bottom: 4px solid #f54e77;
+  
+ 
+  
+}
+
+.searchBar
+{
+height: 40px;
+min-width: 200px;
+width: 30%;
+display: flex;
+align-items: center;
+cursor: pointer;
+
+}
+
+.searchInput{
+    color: #696e79;
+            background-color: #f5f5f6;
+            flex-grow: 1;
+            height: 40px;
+            border: 0;
+            border-radius: 0px  4px 4px 0px; 
+            padding: 10px ;
+            
+}
+
+button
+{
+  border: 0px;
+  cursor: pointer;
+  border-radius: 4px 0 0 4px;
+}
+#searchIcon
+{
+  background-color: #f5f5f6;
+  padding: 10px;
+  
+}
+.material-symbols-outlined
+{
+    height: 20px;
+    padding: 5px;
+    box-sizing: content-box;
+    /* background-color: #f5f5f6; */
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px  0px 0px 4px; 
+    /* font-size: 12px */
+    /* background-color: green; */
+  
+}
+
+.actionBar
+{
+    display: flex;
+    
+    /* background-color: pink; */
+    min-width: 200px;
+    justify-content: space-evenly;
+
+}
+.actionContainer
+{
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+
+ 
+
+}
+
+/* Main Section */
+
+.bannerContainer
+{
+  padding: 40px 0;
+}
+.bannerImage
+{
+ 
+  width: 100%;
+  
+}
+
+
+.categoryHeading
+{
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+.categoryItems
+{
+display: flex;
+/* tali next line me chle jaye  */
+flex-wrap: wrap; 
+justify-content: space-evenly;
+}
+
+.sale_item
+{
+  width: 247px;
+  
+}
+.sort_item
+{
+  width: 19%;
+  
+}
+
+.footer_container
+{
+   background-color: #FAFbFC;
+   padding: 30px  0px 40px 0px;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+.footer_column
+{
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer_column a{
+  text-decoration: none;
+  font-size: 15px;
+  padding-bottom: 5px;
+  color: #696b79;
+}
+
+.footer_column h3{
+    color: #282c3f;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.copyright
+{
+  color: #94969f;
+  text-align: center;
+  padding: 15px;
+}
+
+
+.appImage
+{
+  display: flex;
+  justify-content: space-around
+  
+}
+
+#playstore
+{
+  width: 108px;
+  margin-right: 50px;
+}
+
+#appstore
+{
+  width: 108px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  
+}
+
+#media
+{
+    color: #282c3f;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    
+}
+
